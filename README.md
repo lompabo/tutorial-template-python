@@ -133,7 +133,7 @@ from that) follows a basic files structure:
 `docker-compose.yml`, plus all the Jupyter notebooks
 
 This structure is not at all mandatory, but provides a decent starting point
-to design your notebooks so that they are not too cluttered.
+to design your notebooks so that they are not too cluttered. Storing dataset in a git repository is fine only as long as they are small: if you need to work with larger dataset, the best practice is to download them either by running commands in the notebooks.
 
 Most of the container setup is controlled by the Dockerfile. Ensuring
 compatibility with Binder requires some care in the Dockefile definition: all
